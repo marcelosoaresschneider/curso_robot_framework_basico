@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.6 on win32)" generated="2025-08-21T10:10:35.312193" rpa="false" schemaversion="5">
+<suite id="s1" name="Pratica Dicionario" source="C:\Cursos\curso_robot_framework_basico\pratica_dicionario\pratica_dicionario.robot">
+<test id="s1-t1" name="Imprimir dados da pessoa" line="24">
+<kw name="Logar dados das pessoas">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>nome: ${PESSOA.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T10:10:35.348382" elapsed="0.000672"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>idade: ${PESSOA.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T10:10:35.349197" elapsed="0.000556"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>sexoNome: ${PESSOA.sexo}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T10:10:35.349873" elapsed="0.000524"/>
+</kw>
+<status status="PASS" start="2025-08-21T10:10:35.347869" elapsed="0.002602"/>
+</kw>
+<status status="PASS" start="2025-08-21T10:10:35.347095" elapsed="0.003628"/>
+</test>
+<doc>1 - Crie um arquivo de teste novo;
+2 - Crie uma variável do tipo DICIONÁRIO na seção de variáveis globais que contenha nela os meses do ano e, para cada mês, informe o número de dias desse mês;
+3 - Crie um teste que imprima no Console (Log To Console) cada mês e a sua respectiva quantidade de dias.
+4 - Rode os testes e confira se logou tudo certinho!</doc>
+<status status="PASS" start="2025-08-21T10:10:35.313638" elapsed="0.037995"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Pratica Dicionario" id="s1" pass="1" fail="0" skip="0">Pratica Dicionario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
