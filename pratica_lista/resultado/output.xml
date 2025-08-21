@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.6 on win32)" generated="2025-08-21T09:25:42.763805" rpa="false" schemaversion="5">
+<suite id="s1" name="Pratica Listas" source="C:\Cursos\curso_robot_framework_basico\pratica_lista\pratica_listas.robot">
+<test id="s1-t1" name="Imprimir meses do ano" line="26">
+<kw name="Logar os meses do ano">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 01: ${MESES_ANOS[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.800255" elapsed="0.000710"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 02: ${MESES_ANOS[1]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.801127" elapsed="0.000687"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 03: ${MESES_ANOS[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.801956" elapsed="0.000584"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 04: ${MESES_ANOS[3]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.802651" elapsed="0.000638"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 05: ${MESES_ANOS[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.803471" elapsed="0.000751"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 06: ${MESES_ANOS[5]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.804362" elapsed="0.000633"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 07: ${MESES_ANOS[6]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.805184" elapsed="0.000792"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 08: ${MESES_ANOS[7]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.806175" elapsed="0.000643"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 09: ${MESES_ANOS[8]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.806956" elapsed="0.000724"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 10: ${MESES_ANOS[9]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.807823" elapsed="0.000700"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 11: ${MESES_ANOS[10]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.808655" elapsed="0.000524"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>mês 12: ${MESES_ANOS[11]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.809290" elapsed="0.000510"/>
+</kw>
+<status status="PASS" start="2025-08-21T09:25:42.799698" elapsed="0.010187"/>
+</kw>
+<status status="PASS" start="2025-08-21T09:25:42.798859" elapsed="0.011260"/>
+</test>
+<test id="s1-t2" name="Imprimir frutas" line="29">
+<kw name="Logar as frutas nas posições">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta posicao 01 MAÇA: ${FRUTAS[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.811271" elapsed="0.000539"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fruta posicao 03 JACA: ${FRUTAS[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.811920" elapsed="0.000520"/>
+</kw>
+<status status="PASS" start="2025-08-21T09:25:42.811038" elapsed="0.001473"/>
+</kw>
+<status status="PASS" start="2025-08-21T09:25:42.810619" elapsed="0.002043"/>
+</test>
+<doc>1 - Crie um arquivo de teste novo;
+2 - Crie uma variável do tipo LISTA na seção de variáveis globais que contenha todos os meses do ano;
+3 - Crie um teste que imprima no Console (Log To Console) cada item dessa lista (não use FOR, imprima um a um).
+4 - Rode os testes e confira se logou tudo certinho!
+Perguntas dessa tarefa: Como você implementou? Conta pra gente! Cole os trechos do código criados/alterados.</doc>
+<status status="PASS" start="2025-08-21T09:25:42.765225" elapsed="0.047981"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Pratica Listas" id="s1" pass="2" fail="0" skip="0">Pratica Listas</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

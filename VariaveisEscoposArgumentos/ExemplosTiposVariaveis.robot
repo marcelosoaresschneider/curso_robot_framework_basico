@@ -23,4 +23,4 @@ Uma keyword qualquer 01
     Log    Essa tem que ser maça: ${FRUTAS[2]} e essa tem que ser morango: ${FRUTAS[0]}
 
     # Lendo chaves de um Dicionário
-    Log    Nome: ${PESSOA.nome} e email: ${PESSOA.email}
+    Log    nome: ${PESSOA.nome} e email: ${PESSOA.email}
